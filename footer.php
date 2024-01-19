@@ -1,0 +1,336 @@
+<footer>
+    <div class="container">
+        <div class="row py-5 pb-4">
+            <div class="col-md-4 d-inline-flex col-1-footer">
+                <img src="images/logo-white.svg" width="75px" height="70px" />
+                <div class="d-block ps-5 ms-4">
+                    <h5>O Compremania</h5>
+                    <a class="linkUnderline" href="sobre-nos.php">Sobre Nós</a>
+                    <a class="linkUnderline" href="politica-de-privacidade.php">Política de Privacidade</a>
+                    <a class="linkUnderline" href="termos-de-uso.php">Termos de Uso</a>
+                </div>
+            </div>
+            <div class="col-md-2  col-2-footer">
+                <h5>Destaques</h5>
+                <a class="linkUnderline" href="#">Pontos e Milhas</a>
+                <a class="linkUnderline" href="#">Cashback</a>
+                <a class="linkUnderline" href="#">Cartões de Crédito</a>
+                <a class="linkUnderline" href="#">Calculadora de Milhas</a>
+                <a class="linkUnderline" href="#">Simulador de Ganhos</a>
+                <a class="linkUnderline" href="#">Simulador de Fatura</a>
+                <a class="linkUnderline" href="#">Promoções</a>
+                <a class="linkUnderline" href="#">Transferência Bonificada</a>
+                <a class="linkUnderline" href="#">Todas as Categorias</a>
+            </div>
+            <div class="col-md-2  col-3-footer">
+                <h5>Informações</h5>
+                <a class="linkUnderline" href="contato.php">Fale Conosco</a>
+                <a class="linkUnderline" href="perguntas-frequentes.php">Perguntas Frequentes</a>
+                <a class="linkUnderline" href="#">Blog</a>
+            </div>
+            <div class="col-md-4 col-4-footer">
+                <h3>Baixe nosso app</h3>
+                <p>Compare pontos, milhas e cashback mais rápido, e tenha descontos exclusivos.</p>
+                <div class="d-flex bd-highlight mb-4">
+                    <a class="flex-fill bd-highlight px-1 tablet-d-none"><img src="images/qrcode-app-store.svg" /></a>
+                    <a class="flex-fill bd-highlight px-1 tablet-d-none"><img src="images/qrcode-play-store.svg" /></a>
+                    <div class="desktop-d-none tablet-flex-center-auto">
+                        <a class="bd-highlight px-1"><img src="images/app-store.svg" /></a>
+                        <a class="bd-highlight px-1"><img src="images/play-store.svg" /></a>
+                    </div>
+                </div>
+                <div class="d-flex bd-highlight w-50-tablet ico-sociais-footer">
+                    <a class="flex-fill bd-highlight text-center"><img src="images/ico-instagram-white.svg"
+                            class="zeroAuto ico-blue-white" /></a>
+                    <a class="flex-fill bd-highlight text-center"><img src="images/ico-facebook-white.svg"
+                            class="zeroAuto ico-blue-white" /></a>
+                    <a class="flex-fill bd-highlight text-center"><img src="images/ico-android-white.svg"
+                            class="zeroAuto ico-blue-white" /></a>
+                    <a class="flex-fill bd-highlight text-center"><img src="images/ico-ios-white.svg"
+                            class="zeroAuto ico-blue-white" /></a>
+                    <a class="flex-fill bd-highlight text-center"><img src="images/ico-chrome-white.svg"
+                            class="zeroAuto ico-blue-white" width="31px" height="31px" /></a>
+                </div>
+            </div>
+            <div class="col-md-12 mt-3 col-5-footer">
+                <p><small>O uso deste site está sujeito aos termos e condições do Termo de Uso e Política de
+                        privacidade.<br>&copy; Comparemania. Todos os direitos reservados.</small></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+        var owl = $('#slide-0');
+
+        let numItensCarousel;
+
+        if (window.innerWidth > 1200) {
+            numItensCarousel = 5;
+        } else if (window.innerWidth > 1000) {
+            numItensCarousel = 4;
+        } else if (window.innerWidth > 800) {
+            numItensCarousel = 3;
+        } else {
+            numItensCarousel = 2;
+        }
+
+        owl.owlCarousel({
+            items: numItensCarousel,
+            loop: true,
+            margin: 0,
+            autoplay: true,
+            autoplayTimeout: 500,
+            autoplayHoverPause: true
+        });
+
+        $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [1000])
+        });
+
+        $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        });
+
+        var slide1 = $("#slide-1");
+
+        slide1.owlCarousel({
+            items: numItensCarousel,
+            loop: true,
+            margin: 0,
+            nav: true
+        });
+
+        var slide2 = $("#slide-2");
+
+        slide2.owlCarousel({
+            items: numItensCarousel,
+            loop: true,
+            margin: 0,
+            nav: true
+        });
+
+        var banner1 = $("#banner-1");
+
+        banner1.owlCarousel({
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+            items: 1,
+            margin: 0,
+            smartSpeed: 450,
+            nav: true,
+            loop: true,
+            checkVisible: true
+        });
+
+        var bannerHeader = $("#slideBannerHeader");
+
+        bannerHeader.owlCarousel({
+            autoplay: true,
+            autoplayTimeout: 4000,
+            loop: true,
+            items: 1,
+            margin: 0,
+            nav: false,
+            animateOut: 'fadeOut'
+        });
+
+        function verificaEstilo(cookieStatus) {
+
+            if (cookieStatus == 'checked') {
+
+                $(".modeChecked").show();
+                $(".modeUnchecked").hide();
+
+                $(".header2").removeClass('bgAzulEscuro');
+                $(".cabecalho2").removeClass('cabecalho2Black');
+                $("body").removeClass('bgDark');
+                $("#flexSwitchCheckChecked").removeClass('check-bgDark');
+                $('.dropdown-toggle').removeClass('dropdown-toggle-bgdark');
+                $(".vr25").removeClass('bgWhite');
+            } else {
+
+                $(".modeUnchecked").show();
+                $(".modeChecked").hide();
+
+                $(".header2").addClass('bgAzulEscuro');
+                $(".cabecalho2").addClass('cabecalho2Black');
+                $("body").addClass('bgDark');
+                $("#flexSwitchCheckChecked").addClass('check-bgDark');
+                $('.dropdown-toggle').addClass('dropdown-toggle-bgdark');
+                $(".vr25").addClass('bgWhite');
+            }
+        }
+
+        function getCookie(name) {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                if (cookie.startsWith(name + '=')) {
+                    return cookie.substring(name.length + 1);
+                }
+            }
+            return null;
+        }
+
+        function setCookie(name, value, days) {
+            const expirationDate = new Date();
+            expirationDate.setTime(expirationDate.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = 'expires=' + expirationDate.toUTCString();
+            document.cookie = name + '=' + value + '; ' + expires + '; path=/';
+        }
+
+        function handleCheckboxChange() {
+            const checkbox = document.getElementById('flexSwitchCheckChecked');
+            const isChecked = checkbox.checked;
+
+            setCookie('checkboxStatus', isChecked ? 'checked' : 'unchecked', 365);
+
+            var cookieStatus = getCookie('checkboxStatus');
+
+            verificaEstilo(cookieStatus)
+        }
+
+        const checkbox = document.getElementById('flexSwitchCheckChecked');
+        checkbox.addEventListener('change', handleCheckboxChange);
+
+        const cookieStatus = getCookie('checkboxStatus');
+
+        if (cookieStatus !== null) {
+            checkbox.checked = (cookieStatus === 'checked');
+        }
+
+        verificaEstilo(cookieStatus);
+
+        $(".fechaTopo").click(function () {
+
+            $(".cinza").fadeOut();
+        });
+
+        $("#btPontosMilhas").click(function () {
+
+            $("#blocoPontosMilhas").each(function () {
+
+                if ($(this).hasClass('col-md-12')) {
+
+                    $("#btPontosMilhas").attr('src','images/ico-list.svg');
+
+                    $(this).removeClass('col-md-12');
+                    $(".tablePontosMilhas").addClass('d-none');
+                    $(".cardsPontosMilhas").removeClass('d-none');
+                    $(".anunciosPontosMilhas").removeClass('d-none');
+
+                } else {
+
+                    $("#btPontosMilhas").attr('src','images/ico-grid.svg');
+
+                    $(this).addClass('col-md-12');
+                    $(".tablePontosMilhas").removeClass('d-none');
+                    $(".cardsPontosMilhas").addClass('d-none');
+                    $(".anunciosPontosMilhas").addClass('d-none');
+                }
+            })
+        });
+
+        $("#btCashback").click(function () {
+
+            $("#blocoCashback").each(function () {
+
+                if ($(this).hasClass('col-md-12')) {
+
+                    $("#btCashback").attr('src','images/ico-list.svg');
+
+                    $(this).removeClass('col-md-12');
+                    $(".tableCashback").addClass('d-none');
+                    $(".cardsCashback").removeClass('d-none');
+                    $(".anunciosCashback").removeClass('d-none');
+
+                } else {
+
+                    $("#btCashback").attr('src','images/ico-grid.svg');
+
+                    $(this).addClass('col-md-12');
+                    $(".tableCashback").removeClass('d-none');
+                    $(".cardsCashback").addClass('d-none');
+                    $(".anunciosCashback").addClass('d-none');
+                }
+            })
+        });
+
+        $("#btCartoes").click(function () {
+
+            $("#blocoCartoes").each(function () {
+
+                if ($(this).hasClass('col-md-12')) {
+
+                    $("#btCartoes").attr('src','images/ico-list.svg');
+
+                    $(this).removeClass('col-md-12');
+                    $(".tableCartoes").addClass('d-none');
+                    $(".cardsCartoes").removeClass('d-none');
+                    $(".anunciosCartoes").removeClass('d-none');
+
+                } else {
+
+                    $("#btCartoes").attr('src','images/ico-grid.svg');
+
+                    $(this).addClass('col-md-12');
+                    $(".tableCartoes").removeClass('d-none');
+                    $(".cardsCartoes").addClass('d-none');
+                    $(".anunciosCartoes").addClass('d-none');
+                }
+            })
+        });
+
+        function alternarCaminhoWhiteBlue(src) {
+
+            if (src.includes('-white')) {
+                return src.replace('-white', '-blue');
+            } else if (src.includes('-blue')) {
+                return src.replace('-blue', '-white');
+            }
+            return src;
+        }
+
+        function adicionarOuRetirarBlue(src) {
+
+            var posicaoPonto = src.lastIndexOf('.');
+            var caminhoSemExtensao = src.substring(0, posicaoPonto);
+            var extensao = src.substring(posicaoPonto);
+
+            if (caminhoSemExtensao.endsWith('-blue')) {
+                return caminhoSemExtensao.slice(0, -5) + extensao;
+            }
+
+            return caminhoSemExtensao + '-blue' + extensao;
+        }
+
+        $(".ico-blue-white").hover(function () {
+
+            $(this).each(function () {
+
+                var src = $(this).attr('src');
+
+                $(this).attr('src', alternarCaminhoWhiteBlue(src));
+            });
+        });
+
+        $(".ico-blue").hover(function () {
+
+            $(this).each(function () {
+
+                var src = $(this).attr('src');
+
+                $(this).attr('src', adicionarOuRetirarBlue(src));
+            });
+        });
+    });
+
+</script>
+
+</body>
+
+</html>
