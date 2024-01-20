@@ -95,6 +95,34 @@
             owl.trigger('stop.owl.autoplay')
         });
 
+
+        if (window.innerWidth < 768) {
+
+            $("#transferencia-bonificada").addClass('owl-carousel').after(function () {
+
+                var slide3 = $("#transferencia-bonificada");
+
+                slide3.owlCarousel({
+                    items: 2,
+                    loop: true,
+                    margin: 0,
+                    nav: false
+                });
+            });
+
+            $("#dicas-especiais").addClass('owl-carousel').after(function () {
+
+                var slide4 = $("#dicas-especiais");
+
+                slide4.owlCarousel({
+                    items: 1,
+                    loop: true,
+                    margin: 0,
+                    nav: false
+                });
+            });
+        }
+
         var slide1 = $("#slide-1");
 
         slide1.owlCarousel({

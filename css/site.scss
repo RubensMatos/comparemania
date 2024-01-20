@@ -156,6 +156,23 @@ body {
   line-height: normal;
 }
 
+.botaoRedondo3 {
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 40px;
+  background: #ffffff;
+  border: 1px solid #002e69;
+  color: #002e69;
+  font-family: $font-nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .botaoInput-1 {
   display: flex;
   width: 50px;
@@ -1094,6 +1111,10 @@ body {
   width: 95% !important;
 }
 
+.w-97 {
+  width: 97% !important;
+}
+
 .w-100 {
   width: 100% !important;
 }
@@ -1597,6 +1618,7 @@ footer a {
   }
   #bloco-banner-1 {
     width: 100%;
+    padding-right: 0 !important;
   }
   .logo-header {
     height: 28px;
@@ -1668,7 +1690,7 @@ footer a {
     padding-top: 15px !important;
   }
   .col-1-footer-sub h5 {
-    padding-top: 15px !important;
+    padding-top: 45px !important;
   }
   .col-1-footer div {
     padding-left: 0 !important;
@@ -1717,6 +1739,80 @@ footer a {
 }
 
 @media (max-width: 430px) {
+  #slide-1 .owl-nav button.owl-next,
+  #slide-1 .owl-nav button.owl-prev,
+  #slide-2 .owl-nav button.owl-next,
+  #slide-2 .owl-nav button.owl-prev {
+    display: none !important;
+  }
+
+  .text-center-mobile {
+    text-align: center !important;
+  }
+
+  .btVerMaisMini {
+    display: none;
+  }
+
+  #transferencia-bonificada .card-1 {
+    display: grid;
+    width: 100% !important;
+    height: 284px;
+  }
+
+  #transferencia-bonificada .card-1 div {
+    width: 100%;
+  }
+
+  #transferencia-bonificada .card-1 div p {
+    width: 100% !important;
+    padding: 7px 11px 0 11px !important;
+  }
+
+  #transferencia-bonificada .card-1 div a {
+    width: 100% !important;
+    padding-top: 16px !important;
+    text-align: center;
+  }
+
+  #transferencia-bonificada .owl-item .card-50-per-tablet {
+    width: 94%;
+  }
+
+  #dicas-especiais {
+    padding-left: 6%;
+  }
+
+  #dicas-especiais .card-2 {
+    display: grid;
+    width: 95% !important;
+    height: 284px;
+  }
+
+  #dicas-especiais .card-2 div {
+    width: 100%;
+  }
+
+  #dicas-especiais .card-2 div p {
+    width: 100% !important;
+    padding: 15px 0 0 0 !important;
+  }
+
+  #dicas-especiais .card-2 div a {
+    width: 100% !important;
+    padding-top: 9px !important;
+    text-align: left;
+    padding-bottom: 13px;
+  }
+
+  #dicas-especiais .owl-item .card-50-per-tablet {
+    width: 94%;
+  }
+
+  .width-auto {
+    width: auto !important;
+  }
+
   #slideBannerHeader2 .owl-item {
     min-width: 200px !important;
   }
@@ -1748,5 +1844,21 @@ footer a {
   .textoTopo a {
     display: $grid;
     text-align: $center !important;
+  }
+
+  footer div.container {
+    width: 91%;
+    max-width: 91%;
+  }
+
+  .photo-card-1 {
+    border-top-right-radius: calc(
+      var(--bs-border-radius) - (var(--bs-border-width))
+    );
+    border-top-left-radius: calc(
+      var(--bs-border-radius) - (var(--bs-border-width))
+    );
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
   }
 }
