@@ -3,14 +3,14 @@
         <div class="row py-5 pb-4">
             <div class="col-md-4 d-inline-flex col-1-footer">
                 <img src="images/logo-white.svg" width="75px" height="70px" />
-                <div class="d-block ps-5 ms-4">
+                <div class="d-block ps-5 ms-4 col-1-footer-sub">
                     <h5>O Compremania</h5>
                     <a class="linkUnderline" href="sobre-nos.php">Sobre Nós</a>
                     <a class="linkUnderline" href="politica-de-privacidade.php">Política de Privacidade</a>
                     <a class="linkUnderline" href="termos-de-uso.php">Termos de Uso</a>
                 </div>
             </div>
-            <div class="col-md-2  col-2-footer">
+            <div class="col-md-2  col-2-footer col-1-footer-sub">
                 <h5>Destaques</h5>
                 <a class="linkUnderline" href="#">Pontos e Milhas</a>
                 <a class="linkUnderline" href="#">Cashback</a>
@@ -22,13 +22,13 @@
                 <a class="linkUnderline" href="#">Transferência Bonificada</a>
                 <a class="linkUnderline" href="#">Todas as Categorias</a>
             </div>
-            <div class="col-md-2  col-3-footer">
+            <div class="col-md-2  col-3-footer col-1-footer-sub">
                 <h5>Informações</h5>
                 <a class="linkUnderline" href="contato.php">Fale Conosco</a>
                 <a class="linkUnderline" href="perguntas-frequentes.php">Perguntas Frequentes</a>
                 <a class="linkUnderline" href="#">Blog</a>
             </div>
-            <div class="col-md-4 col-4-footer">
+            <div class="col-md-4 col-4-footer col-1-footer-sub col-last-footer">
                 <h3>Baixe nosso app</h3>
                 <p>Compare pontos, milhas e cashback mais rápido, e tenha descontos exclusivos.</p>
                 <div class="d-flex bd-highlight mb-4">
@@ -216,7 +216,7 @@
 
                 if ($(this).hasClass('col-md-12')) {
 
-                    $("#btPontosMilhas").attr('src','images/ico-list.svg');
+                    $("#btPontosMilhas").attr('src', 'images/ico-list.svg');
 
                     $(this).removeClass('col-md-12');
                     $(".tablePontosMilhas").addClass('d-none');
@@ -225,7 +225,7 @@
 
                 } else {
 
-                    $("#btPontosMilhas").attr('src','images/ico-grid.svg');
+                    $("#btPontosMilhas").attr('src', 'images/ico-grid.svg');
 
                     $(this).addClass('col-md-12');
                     $(".tablePontosMilhas").removeClass('d-none');
@@ -241,7 +241,7 @@
 
                 if ($(this).hasClass('col-md-12')) {
 
-                    $("#btCashback").attr('src','images/ico-list.svg');
+                    $("#btCashback").attr('src', 'images/ico-list.svg');
 
                     $(this).removeClass('col-md-12');
                     $(".tableCashback").addClass('d-none');
@@ -250,7 +250,7 @@
 
                 } else {
 
-                    $("#btCashback").attr('src','images/ico-grid.svg');
+                    $("#btCashback").attr('src', 'images/ico-grid.svg');
 
                     $(this).addClass('col-md-12');
                     $(".tableCashback").removeClass('d-none');
@@ -266,7 +266,7 @@
 
                 if ($(this).hasClass('col-md-12')) {
 
-                    $("#btCartoes").attr('src','images/ico-list.svg');
+                    $("#btCartoes").attr('src', 'images/ico-list.svg');
 
                     $(this).removeClass('col-md-12');
                     $(".tableCartoes").addClass('d-none');
@@ -275,7 +275,7 @@
 
                 } else {
 
-                    $("#btCartoes").attr('src','images/ico-grid.svg');
+                    $("#btCartoes").attr('src', 'images/ico-grid.svg');
 
                     $(this).addClass('col-md-12');
                     $(".tableCartoes").removeClass('d-none');
@@ -326,6 +326,16 @@
 
                 $(this).attr('src', adicionarOuRetirarBlue(src));
             });
+        });
+
+        $("#botaoMenuTopo").click(function () {
+
+            $("#bgBlackTranspFull").addClass('d-block');
+        });
+
+        $("#botaoMenuTopoFecha").click(function () {
+
+            $("#bgBlackTranspFull").removeClass('d-block');
         });
     });
 

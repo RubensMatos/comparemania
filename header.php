@@ -26,6 +26,7 @@
 </head>
 
 <body>
+    <div id="bgBlackTranspFull"></div>
     <div class="cinza header1">
         <div class="container anuncioTopo w-100">
             <div class="row grid">
@@ -47,18 +48,67 @@
                 <nav class="navbar navbar-expand-md">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="https://dev.solutioweb.com.br/comparemania">
-                            <img src="images/comparemania-text.svg" class="modeChecked" />
-                            <img src="images/comparemania-text-white.svg" class="modeUnchecked" />
+                            <img src="images/comparemania-text.svg" class="modeChecked logo-header" />
+                            <img src="images/comparemania-text-white.svg" class="modeUnchecked logo-header" />
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                            aria-expanded="false" aria-label="Toggle navigation" id="botaoMenuTopo">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
                             <div class="mobile-d-block">
-                                asdasd
+                                <ul class="bloco-lista-menu-mobile ps-3">
+                                    <li class="h-70px">
+                                        <a href="#" class="ms-3"><img src="images/ico-profile.svg"></a>
+                                        <a href="#" class="ms-4"><img src="images/ico-notification.svg"></a>
+                                        <a href="#" class="float-end me-4" data-bs-toggle="collapse"
+                                            data-bs-target="#navbarSupportedContent" aria-controls="navbarNav"
+                                            aria-expanded="false"><img src="images/ico-close.svg" id="botaoMenuTopoFecha"></a>
+                                    </li>
+                                    <li>
+                                        <a href="pontos-e-milhas.php" class="text-decoration-none pointer">
+                                            <img src="images/ico-pontos-e-milhas.svg">
+                                            <span class="NunitoBlue700-3">Pontos e Milhas</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="cashback.php" class="text-decoration-none pointer">
+                                            <img src="images/ico-cashback.svg">
+                                            <span class="NunitoBlue700-3">Cashback</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="cartoes-de-credito.php" class="text-decoration-none pointer">
+                                            <img src="images/ico-cartoes-de-credito.svg">
+                                            <span class="NunitoBlue700-3">Cartões de Crédito</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-decoration-none pointer">
+                                            <img src="images/ico-transferencia-bancaria.svg">
+                                            <span class="NunitoBlue700-3">Transferência Bonificada</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-decoration-none pointer">
+                                            <img src="images/ico-simulador-de-ganhos.svg">
+                                            <span class="NunitoBlue700-3">Simulador de Ganhos</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-decoration-none pointer">
+                                            <img src="images/ico-calculadora-de-milhas.svg">
+                                            <span class="NunitoBlue700-3">Calculadora de Mihas</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-decoration-none pointer">
+                                            <img src="images/ico-simulador-de-fatura.svg">
+                                            <span class="NunitoBlue700-3">Simulador de Fatura</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
 
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mobile-d-none">
@@ -169,7 +219,8 @@
                         <li><a class="dropdown-item" href="#">Livro e Revistas</a></li>
                         <li><a class="dropdown-item" href="#">Móveis e Decoração</a></li>
                     </ul>
-                    <input type="text" class="form-control" aria-label="Text input with 2 dropdown buttons">
+                    <input type="text" class="form-control campo-pesquisa-header"
+                        aria-label="Text input with 2 dropdown buttons">
                     <button class="btn btn-primary px-3" type="button" id="button-addon2"><i
                             class="fa fa-search"></i></button>
                 </div>

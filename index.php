@@ -1,7 +1,7 @@
 <?php require_once('header.php'); ?>
 
 <div class="container conteudo d-flex">
-	<div class="col-md-7 px-1">
+	<div class="col-md-7 px-1" id="bloco-banner-1">
 		<div id="banner-1" class="owl-carousel">
 			<div>
 				<img src="images/banner-1.png" class="h-200 w-100" />
@@ -24,7 +24,7 @@
 </div>
 
 <div class="col-md-12 text-center mt-4">
-	<img src="images/anuncio-4.svg" class="zeroAuto" />
+	<img src="images/anuncio-4.svg" class="zeroAuto anuncio-1-conteudo" />
 </div>
 
 <div class="container conteudo py-4">
@@ -534,7 +534,7 @@
 	<h3 class="NunitoBlue700-2">Fique por dentro das novidades e promoções exclusivas!</h3>
 
 	<div class="newsletterCampos">
-		<input type="text" class="input-1 me-3 w-49" placeholder="Seu nome" aria-label="Seu nome" />
+		<input type="text" class="input-1 me-3 w-49 input-1-newsletter" placeholder="Seu nome" aria-label="Seu nome" />
 		<div class="input-group mb-3 w-49">
 			<input type="text" class="form-control input-1" placeholder="Informe o e-mail" aria-label="Informe o e-mail"
 				aria-describedby="basic-addon2">

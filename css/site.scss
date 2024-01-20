@@ -108,6 +108,16 @@ body {
   padding-right: 0;
 }
 
+#bgBlackTranspFull {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 5;
+  display: none;
+  transition: opacity 1s ease;
+}
+
 .itemBolsa h6 {
   color: $azulEscuro;
   font-weight: 600;
@@ -224,14 +234,7 @@ body {
     width: 1170px;
   }
 }
-@media (max-width: 767px) {
-  #featureContainer .carousel-inner .carousel-item > div {
-    display: none;
-  }
-  #featureContainer .carousel-inner .carousel-item > div:first-child {
-    display: block;
-  }
-}
+
 #featureContainer .carousel-inner .carousel-item.active,
 #featureContainer .carousel-inner .carousel-item-next,
 #featureContainer .carousel-inner .carousel-item-prev {
@@ -254,12 +257,7 @@ body {
     justify-content: space-between;
   }
 }
-@media (max-width: 767px) {
-  #featureContainer .card img {
-    width: 100%;
-    height: 75vh;
-  }
-}
+
 #featureContainer .carousel-inner .carousel-item-end,
 #featureContainer .carousel-inner .carousel-item-start {
   transform: translateX(0);
@@ -1390,6 +1388,11 @@ footer a {
   display: none !important;
 }
 
+.h-70px {
+  height: 70px !important;
+  line-height: 70px !important;
+}
+
 @media (max-width: 1390px) {
   .col-1-footer {
     width: 40%;
@@ -1580,7 +1583,41 @@ footer a {
 }
 
 @media (max-width: 767px) {
-
+  .col-1-footer {
+    width: 100%;
+    display: grid !important;
+  }
+  #featureContainer .card img {
+    width: 100%;
+    height: 75vh;
+  }
+  .col-grid-1 {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+  #bloco-banner-1 {
+    width: 100%;
+  }
+  .logo-header {
+    height: 28px;
+  }
+  .campo-pesquisa-header {
+    border-top-left-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+  }
+  .btCategorias {
+    display: none;
+  }
+  #featureContainer .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  #featureContainer .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+  .bloco-lista-menu-mobile {
+    height: 82px;
+    line-height: 87px;
+  }
   .mobile-d-block {
     display: block !important;
   }
@@ -1591,13 +1628,13 @@ footer a {
 
   .navbar-collapse {
     background-color: #ffffff;
-    width: 80%;
+    width: 345px;
     position: fixed;
     top: 0;
     right: 0;
-    left: -80%;
+    left: -345px;
     z-index: 1030;
-    transition: left 0.3s ease;
+    transition: left 0.5s ease;
     height: 100%;
   }
 
@@ -1617,11 +1654,56 @@ footer a {
   }
   .cabecalho2 {
     margin-bottom: 23px;
-    background: rgba(0, 0, 0, 0.75);
     height: 125px;
   }
   .menu2 {
     display: none;
+  }
+  .col-1-footer-sub {
+    padding-left: 1rem !important;
+    margin-left: 1rem !important;
+    width: 100% !important;
+  }
+  .linkUnderline {
+    padding-top: 15px !important;
+  }
+  .col-1-footer-sub h5 {
+    padding-top: 15px !important;
+  }
+  .col-1-footer div {
+    padding-left: 0 !important;
+  }
+  .col-1-footer img {
+    margin-left: 1rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .col-last-footer {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  .newsletter {
+    padding: 1.5rem !important;
+    text-align: center !important;
+  }
+  .newsletterCampos {
+    display: grid !important;
+    width: 100% !important;
+  }
+  .newsletterCampos .input-1-newsletter {
+    width: 100% !important;
+    margin-bottom: 1.5em !important;
+  }
+  .newsletterCampos .input-group {
+    width: 100% !important;
+  }
+  .redes-sociais-1 .space-40px {
+    width: 20px;
+  }
+  #slideBannerHeader2 #slide-0 {
+    height: 100px;
+  }
+  #slideBannerHeader img {
+    height: 128px !important;
   }
 }
 
