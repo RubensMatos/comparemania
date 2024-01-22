@@ -1,22 +1,32 @@
 <?php require_once('header.php'); ?>
 
 <div class="container conteudo">
-    <img src="images/banner-contato.svg" class="w-100" />
 
-    <nav aria-label="breadcrumb">
+    <img src="images/banner-contato.svg" class="w-100 mobile-d-none" />
+
+    <div class="banner-bg mobile-d-block mb-4">
+        <label class="banner-titulo pt-4">Fale Conosco</label>
+        <label class="banner-texto">Entre em contato conosco!</label>
+    </div>
+
+    <nav aria-label="breadcrumb" class="mobile-d-none">
         <ol class="breadcrumb pt-4">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Fale conosco</li>
+            <li class="breadcrumb-item active" aria-current="page">Fale Conosco</li>
         </ol>
     </nav>
 
-    <div class="col-md-12 text-center mt-4">
+    <div class="col-md-12 text-center mt-4 mobile-d-none">
         <img src="images/anuncio-8.svg" class="zeroAuto anuncio-1-conteudo" />
+    </div>
+
+    <div class="col-md-12 text-center mobile-d-block">
+        <img src="images/anuncio-18.svg" class="zeroAuto anuncio-1-conteudo" />
     </div>
 
     <div class="container conteudo">
         <div class="row justify-content-center">
-            <div class="col-6 mt-5">
+            <div class="col-6 mt-5 w-100-mob">
 
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control input-1 border-1" id="floatingInput"
