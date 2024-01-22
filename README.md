@@ -9,3 +9,4 @@ Layout Comparemania
 <p>https://dev.solutioweb.com.br/comparemania/perguntas-frequentes.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/pontos-e-milhas.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/cashback.php</p>
+<p>https://dev.solutioweb.com.br/comparemania/cartoes-de-credito.php</p>

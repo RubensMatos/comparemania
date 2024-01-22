@@ -1,26 +1,35 @@
 <?php require_once('header.php'); ?>
 
 <div class="container conteudo">
-    <img src="images/banner-cartoes-de-credito.svg" class="w-100" />
+    <img src="images/banner-cartoes-de-credito.svg" class="w-100 mobile-d-none" />
 
-    <nav aria-label="breadcrumb">
+    <div class="banner-bg mobile-d-block mb-4 bg-blue-light">
+        <label class="banner-titulo fonteAzulEscuro">Cartões de Crédito</label>
+        <label class="banner-texto">Encontre o cartão de crédito que mais combina com você.</label>
+    </div>
+
+    <nav aria-label="breadcrumb" class="mobile-d-none">
         <ol class="breadcrumb pt-4">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Cartões</li>
         </ol>
     </nav>
 
-    <div class="col-md-12 text-center mt-4">
-        <img src="images/anuncio-8.svg" class="zeroAuto" />
+    <div class="col-md-12 text-center mt-4 mobile-d-none">
+        <img src="images/anuncio-8.svg" class="zeroAuto anuncio-1-conteudo" />
+    </div>
+
+    <div class="col-md-12 text-center mobile-d-block">
+        <img src="images/anuncio-18.svg" class="zeroAuto anuncio-1-conteudo" />
     </div>
 
     <div class="my-5 w-100 row">
 
         <div class="col-md-9" id="blocoCartoes">
 
-            <div class="d-flex">
+            <div class="d-flex d-block-mob">
 
-                <div class="input-group mb-3 col-9 pe-3 w-60">
+                <div class="input-group mb-3 col-9 pe-3 w-60 w-100-mob ps-2-mob">
                     <input type="text" class="form-control input-2" placeholder="Buscar Lojas" aria-label="Buscar Lojas"
                         aria-describedby="basic-addon2">
                     <div class="input-group-append">
@@ -29,23 +38,23 @@
                     </div>
                 </div>
 
-                <select class="form-select form-select-1 input-2 col-2 me-3 w-20" aria-label="Ordenar por:"
-                    placeholder="Ordernar por:">
+                <select class="form-select form-select-1 input-2 col-2 me-3 w-20 left-mob w-60-mob me-2-mob ms-2-mob"
+                    aria-label="Ordenar por:" placeholder="Ordernar por:">
                     <option selected disabled>Ordenar por:</option>
                     <option value="1">Mais relevantes</option>
                     <option value="2">Mais pontos</option>
                     <option value="3">Menos pontos</option>
                 </select>
 
-                <select class="form-select form-select-1 custom-select input-2 col-1 w-10">
+                <select class="form-select form-select-1 custom-select input-2 col-1 w-10 w-20-mob left-mob me-2-mob">
                     <option selected="">A-Z</option>
                     <option value="A">A</option>
                     <option value="B">B</option>
                     <option value="C">C</option>
                 </select>
 
-                <div class="w-10 text-center pt-2">
-                    <img src="images/ico-list.svg" class="pointer" id="btCartoes" />
+                <div class="w-10 text-center pt-2 left-mob w-10-mob">
+                    <img src="images/ico-list.svg" class="pointer" id="btPontosMilhas" />
                 </div>
 
             </div>
@@ -1010,12 +1019,13 @@
             </div>
 
             <div class="col-md-12 text-center mt-5 mb-2 d-none tableCartoes">
-                <img src="images/anuncio-8.svg" class="zeroAuto anuncio-1-conteudo" />
+                <img src="images/anuncio-8.svg" class="zeroAuto anuncio-1-conteudo mobile-d-none" />
+                <img src="images/anuncio-18.svg" class="zeroAuto anuncio-1-conteudo mobile-d-block" />
             </div>
 
             <div class="w-100 row py-3 ms-1 cardsCartoes">
 
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1025,7 +1035,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1035,7 +1045,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1045,7 +1055,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1055,7 +1065,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1065,7 +1075,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1075,7 +1085,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1085,7 +1095,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1095,7 +1105,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1105,7 +1115,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1115,7 +1125,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1125,7 +1135,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1135,7 +1145,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1145,7 +1155,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1155,7 +1165,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1165,7 +1175,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1175,7 +1185,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1185,7 +1195,7 @@
                         <span class="NunitoGray700-3 ms-2 pt-1 w-95 left text-center">1.42 pontos por R$</span>
                     </a>
                 </div>
-                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per">
+                <div class="card border-0 col-md-4 pb-3 me-2 mb-3 card-30per w-47-mob-3-per">
                     <a href="#" class="text-decoration-none">
                         <div class="w-100 text-center">
                             <img src="images/cartao-itaucard.svg" class="w-120px mt-4 ms-1 zeroAuto">
@@ -1217,7 +1227,8 @@
                 </nav>
 
                 <div class="col-md-12 text-center mt-0 mb-0">
-                    <img src="images/anuncio-8.svg" class="zeroAuto anuncio-1-conteudo" />
+                    <img src="images/anuncio-8.svg" class="zeroAuto anuncio-1-conteudo mobile-d-none" />
+                    <img src="images/anuncio-18.svg" class="zeroAuto anuncio-1-conteudo mobile-d-block" />
                 </div>
 
             </div>
