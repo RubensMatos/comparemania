@@ -2,7 +2,7 @@
 
 <div class="container conteudo">
     <img src="images/banner-sobre.svg" class="w-100 mobile-d-none" />
-    <div class="banner-bg mobile-d-block">
+    <div class="banner-bg mobile-d-block mb-4">
         <label class="banner-titulo">Sobre o<br>Comparemania</label>
         <label class="banner-texto">Conheça mais sobre nós comparador.</label>
     </div>
@@ -24,7 +24,7 @@
 
     <div class="d-flex d-grid-mob">
         <div class="w-49 w-100-mob">
-            <div class="card card-1 border-0 b-r-20 p-4 h-auto mt-5 mb-3 mh-420-tablet mh-auto-mobile">
+            <div class="card card-1 border-0 b-r-20 p-4 h-auto mt-5 mb-3 mh-420-tablet mh-auto-mobile mt-4-5-mob">
                 <img src="images/logo-1.svg" class="zeroAuto mt-5 mb-3 pt-5 pt-0-mob mt-3-mob" />
                 <span class="NunitoGrey500-2 w-100 left text-center pt-2 mb-1 px-3 mh-150">O site Comparemania é uma
                     plataforma
@@ -34,7 +34,7 @@
         </div>
         <div class="w-49 w-100-mob ms-4 ms-0-mob">
             <div class="card card-1 border-0 b-r-20 p-4 h-auto mt-5 mb-3 mh-420-tablet mt-2-mob mh-auto-mobile">
-                <img src="images/ico-cashback-2.svg" class="zeroAuto mt-5 mb-3 pt-5 pt-0-mob mt-3-mob" />
+                <img src="images/ico-cashback-2.svg" class="zeroAuto mb-3 pt-5 pt-0-mob mt-3-mob" />
                 <span class="NunitoGrey500-2 w-100 left text-center pt-2 mb-1 px-3 mh-150">Sobre o que você gostaria que
                     fosse
                     o parágrafo?
