@@ -60,9 +60,26 @@
     </div>
 </footer>
 
+<button onclick="topFunction()" id="up" title="Go to top"><img src="images/arrow-up.svg" /></button>
+
 <script>
 
     document.addEventListener('DOMContentLoaded', function () {
+
+        $(".bt-alerta-1, .alerta-container").on({
+            mouseenter: function () {
+                $(".alerta-container").stop().fadeIn();
+            },
+            mouseleave: function () {
+                $(".alerta-container").stop().fadeOut();
+            },
+            touchstart: function () {
+                $(".alerta-container").stop().fadeIn();
+            },
+            touchend: function () {
+                $(".alerta-container").stop().fadeOut();
+            }
+        });
 
         var owl = $('#slide-0');
 
@@ -83,7 +100,7 @@
             loop: true,
             margin: 0,
             autoplay: true,
-            autoplayTimeout: 500,
+            autoplayTimeout: 400,
             autoplayHoverPause: true
         });
 
@@ -148,6 +165,8 @@
             animateIn: 'fadeIn',
             items: 1,
             margin: 0,
+            autoplay: true,
+            autoplayTimeout: 4000,
             smartSpeed: 450,
             nav: true,
             loop: true,
@@ -366,6 +385,28 @@
             $("#bgBlackTranspFull").removeClass('d-block');
         });
     });
+
+</script>
+
+<script>
+
+    let mybutton = document.getElementById("up");
+
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
 
 </script>
 

@@ -143,7 +143,7 @@
 
 		</div>
 
-		<div class="col-md-3 tablet-d-block">
+		<div class="col-md-3 tablet-d-block mobile-d-block">
 			<img src="images/anuncio-15.svg" class="w-97 mt-2 mb-4 zeroAuto ps-3" />
 		</div>
 
@@ -369,7 +369,8 @@
 		</div>
 
 		<div class="col-md-12 mt-4">
-			<a class="botaoRedondo3 my-3 left w-100 text-center text-decoration-none cursror pointer">Ver mais...</a>
+			<a class="botaoRedondo3 my-3 left w-100 text-center text-decoration-none cursror pointer mobile-d-block">Ver
+				mais...</a>
 		</div>
 
 		<div class="col-md-12 mt-5">
@@ -418,7 +419,8 @@
 		</div>
 
 		<div class="col-md-12 mt-4">
-			<a class="botaoRedondo3 my-3 left w-100 text-center text-decoration-none cursror pointer">Ver mais...</a>
+			<a class="botaoRedondo3 my-3 left w-100 text-center text-decoration-none cursror pointer mobile-d-block">Ver
+				mais...</a>
 		</div>
 
 		<div class="conteudo col-md-12 mt-5 px-3 mobile-d-none">
@@ -578,10 +580,28 @@
 		<div class="space-40px"></div>
 		<a href="#"><img src="images/ico-chrome.svg" class="ico-blue" /></a>
 	</div>
-	<span class="NunitoBlue500-2 text-center pt-5 pb-2 bgDark-fonte-1">
+
+	<div class="left w-100">
+		<div class="alerta-container">
+			<div class="alerta-content">
+				<div class="alerta-text">
+					Queremos esclarecer que as atualizações de data e hora em nosso site não ocorrem em tempo real.
+					No entanto, vale ressaltar que essa periodicidade é destinada à atualização dos ativos, como pontos,
+					milhas,
+					cashback e descontos, proporcionando uma experiência mais precisa e eficiente.
+				</div>
+			</div>
+			<img src="images/retangle-down-1.svg" class="alerta-arrow" />
+		</div>
+	</div>
+
+	<a class="NunitoBlue500-2 text-center pt-2 pb-2 bgDark-fonte-1 bt-alerta-1 text-decoration-none pointer">
 		Última atualização: 23/09/2023 - 10:23h
-	</span>
+	</a>
+
 </div>
+
+
 
 </div>
 

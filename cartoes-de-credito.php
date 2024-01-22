@@ -52,693 +52,940 @@
 
             <div class="col-md-12 pe-4">
 
-                <table class="table table-striped borderRadiusTop10 tableCartoes d-none">
-                    <thead>
-                        <tr>
-                            <th scope="col"
-                                class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 borderRadiusTopLeft10 align-middle">
-                                Cartão</th>
-                            <th scope=" col"
-                                class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Tipo
-                            </th>
-                            <th scope=" col"
-                                class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Ganho
-                            </th>
-                            <th scope=" col"
-                                class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Anuidade
-                            </th>
-                            <th scope=" col"
-                                class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Sala VIP
-                            </th>
-                            <th scope=" col"
-                                class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Proteção
-                                de Preço
-                            </th>
-                            <th scope=" col"
-                                class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Proteção
-                                de Compra
-                            </th>
-                            <th scope=" col"
-                                class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Garantia
-                                Estendida
-                            </th>
-                            <th scope=" col"
-                                class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Seguro
-                                Veículo
-                            </th>
-                            <th scope=" col"
-                                class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Seguro
-                                Saúde
-                            </th>
-                            <th scope=" col"
-                                class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 borderRadiusTopRight10 align-middle">
-                                Outros
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul Itaú Visa Infinite
-                                <img src="images/cartao-itaucard.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center NunitoGray500 align-middle d-grid">
-                                Azul
-                                <img src="images/cartao-azul-1.svg" />
-                            </td>
-                            <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 align-middle">Pontos</td>
-                            <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
-                            <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" /></td>
-                            <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" /></td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table class="table table-striped borderRadiusTop10 tableCartoes d-none">
+                        <thead>
+                            <tr>
+                                <th scope="col"
+                                    class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 borderRadiusTopLeft10 align-middle">
+                                    Cartão</th>
+                                <th scope=" col"
+                                    class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Tipo
+                                </th>
+                                <th scope=" col"
+                                    class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Ganho
+                                </th>
+                                <th scope=" col"
+                                    class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">
+                                    Anuidade
+                                </th>
+                                <th scope=" col"
+                                    class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Sala
+                                    VIP
+                                </th>
+                                <th scope=" col"
+                                    class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">
+                                    Proteção
+                                    de Preço
+                                </th>
+                                <th scope=" col"
+                                    class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">
+                                    Proteção
+                                    de Compra
+                                </th>
+                                <th scope=" col"
+                                    class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">
+                                    Garantia
+                                    Estendida
+                                </th>
+                                <th scope=" col"
+                                    class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Seguro
+                                    Veículo
+                                </th>
+                                <th scope=" col"
+                                    class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 align-middle">Seguro
+                                    Saúde
+                                </th>
+                                <th scope=" col"
+                                    class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 borderRadiusTopRight10 align-middle">
+                                    Outros
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul Itaú Visa Infinite
+                                    <img src="images/cartao-itaucard.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center NunitoGray500 align-middle d-grid">
+                                    Azul
+                                    <img src="images/cartao-azul-1.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 align-middle">Pontos</td>
+                                <td class="text-center NunitoGray500 align-middle">0.45 pts por R$</td>
+                                <td class="text-center NunitoGray500 align-middle">Pode Isentar</td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-check.svg" />
+                                </td>
+                                <td class="text-center NunitoGray500 align-middle"><img src="images/ico-remove.svg" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
                 <nav aria-label="Page navigation example" class="text-center tableCartoes d-none">
                     <ul class="pagination pagination-1 justify-content-center mt-4 mb-5">
@@ -762,7 +1009,7 @@
 
             </div>
 
-            <div class="col-md-12 text-center mt-5 mb-2 d-none tableCartoes">   
+            <div class="col-md-12 text-center mt-5 mb-2 d-none tableCartoes">
                 <img src="images/anuncio-8.svg" class="zeroAuto anuncio-1-conteudo" />
             </div>
 

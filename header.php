@@ -31,7 +31,7 @@
         <div class="container anuncioTopo w-100">
             <div class="row grid">
                 <div class="col-2 logoTopo">
-                    <img src="images/esfera-logo-latam-pass.svg" />
+                    <img src="images/esfera.png" />
                 </div>
                 <div class="col-9 textoTopo text-center">
                     <label>Compre pontos Esfera e turbine seu saldo de pontos! <a href="#">Clique e confira</a></label>
@@ -64,7 +64,8 @@
                                         <a href="#" class="ms-4"><img src="images/ico-notification.svg"></a>
                                         <a href="#" class="float-end me-4" data-bs-toggle="collapse"
                                             data-bs-target="#navbarSupportedContent" aria-controls="navbarNav"
-                                            aria-expanded="false"><img src="images/ico-close.svg" id="botaoMenuTopoFecha"></a>
+                                            aria-expanded="false"><img src="images/ico-close.svg"
+                                                id="botaoMenuTopoFecha"></a>
                                     </li>
                                     <li>
                                         <a href="pontos-e-milhas.php" class="text-decoration-none pointer">
@@ -107,6 +108,30 @@
                                             <img src="images/ico-simulador-de-fatura.svg">
                                             <span class="NunitoBlue700-3">Simulador de Fatura</span>
                                         </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="botaoRedondo1 my-3 left w-100 text-center text-decoration-none cursror pointer">Categorias
+                                            <img src="images/arrow-right-1.svg"></a>
+                                    </li>
+                                    <li class="d-block">
+                                        <a class="nav-link left px-2 h-50px" aria-current="page" href="#">
+                                            <img src="images/ico-instagram.svg" class="modeChecked ico-blue"
+                                                width="26px" height="25px">
+                                            <img src="images/ico-instagram.svg" class="modeUnchecked ico-blue"
+                                                width="26px" height="25px" style="display: none;">
+                                        </a>
+                                        <a class="nav-link left px-2 h-50px" href="#">
+                                            <img src="images/ico-facebook.svg" class="modeChecked ico-blue" width="26px"
+                                                height="25px">
+                                            <img src="images/ico-facebook.svg" class="modeUnchecked ico-blue"
+                                                width="26px" height="25px" style="display: none;">
+                                        </a>
+                                        <div class="form-check form-switch float-end px-2 h-50px">
+                                            <input class="form-check-input switcherHeader" type="checkbox"
+                                                id="flexSwitchCheckChecked" checked="">
+                                            <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
@@ -226,7 +251,7 @@
                 </div>
             </div>
             <div class="menu2">
-                <a href="pontos-e-milhas.php">
+                <a class="menu2-primeiro" href="pontos-e-milhas.php">
                     <div>
                         <img src="images/ico-pontos-e-milhas.svg" />
                     </div>
@@ -262,7 +287,7 @@
                     </div>
                     <span class="fonteAzulEscuro bold left w-100">Calculadora de<br>Milhas</span>
                 </a>
-                <a>
+                <a class="menu2-ultimo">
                     <div>
                         <img src="images/ico-simulador-de-fatura.svg" />
                     </div>
@@ -271,7 +296,7 @@
             </div>
         </div>
         <div>
-            <div class="container box mb-4" id="featureContainer">
+            <div class="container box mb-4 mb-2-mob" id="featureContainer">
                 <div class="row mx-auto my-auto justify-content-center">
                     <div id="slideBannerHeader2" class="carousel slide">
                         <a class="indicator d-none" href="#slideBannerHeader2" role="button" data-bs-slide="prev">
