@@ -1,17 +1,26 @@
 <?php require_once('header.php'); ?>
 
 <div class="container conteudo">
-    <img src="images/banner-politica.svg" class="w-100" />
+    <img src="images/banner-politica.svg" class="w-100 mobile-d-none" />
 
-    <nav aria-label="breadcrumb">
+    <div class="banner-bg mobile-d-block mb-4">
+        <label class="banner-titulo">Política de<br>Privacidade</label>
+        <label class="banner-texto">A sua privacidade é importante para nós.</label>
+    </div>
+
+    <nav aria-label="breadcrumb" class="mobile-d-none">
         <ol class="breadcrumb pt-4">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Política de Privacidade</li>
         </ol>
     </nav>
 
-    <div class="col-md-12 text-center mt-4">
+    <div class="col-md-12 text-center mt-4 mobile-d-none">
         <img src="images/anuncio-8.svg" class="zeroAuto anuncio-1-conteudo" />
+    </div>
+
+    <div class="col-md-12 text-center mobile-d-block">
+        <img src="images/anuncio-18.svg" class="zeroAuto anuncio-1-conteudo" />
     </div>
 
     <div class="w-100">
@@ -38,8 +47,12 @@
     </div>
 
     <div class="w-100 pt-4 pb-5">
-        <span class="w-60-zeroAuto NunitoBlue700-2 text-start bgDark-fonte-1">Em caso de dúvidas sobre esta Política de Privacidade, não hesite
+        <span class="w-60-zeroAuto NunitoBlue700-2 text-start bgDark-fonte-1 w-100-mob">Em caso de dúvidas sobre esta Política de Privacidade, não hesite
             em nos <a href="#" class="NunitoBlue700-2-link bgDark-fonte-1">Contatar</a></span>
+    </div>
+
+    <div class="col-md-12 text-center mb-4 mobile-d-block">
+        <img src="images/anuncio-17.svg" class="zeroAuto anuncio-1-conteudo" />
     </div>
 
 </div>
