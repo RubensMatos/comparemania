@@ -7,3 +7,4 @@ Layout Comparemania
 <p>https://dev.solutioweb.com.br/comparemania/termos-de-uso.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/contato.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/perguntas-frequentes.php</p>
+<p>https://dev.solutioweb.com.br/comparemania/pontos-e-milhas.php</p>
