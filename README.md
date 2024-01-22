@@ -11,3 +11,4 @@ Layout Comparemania
 <p>https://dev.solutioweb.com.br/comparemania/cashback.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/cartoes-de-credito.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/categorias.php</p>
+<p>https://dev.solutioweb.com.br/comparemania/categorias-selecionado.php</p>
