@@ -1547,8 +1547,8 @@ footer a {
   .cardsPontosMilhas .card-30per,
   .cardsCashback .card-30per,
   .cardsCartoes .card-30per {
-    width: 32% !important;
-    margin-right: 1% !important;
+    width: 32%;
+    margin-right: 1%;
   }
   .blocoCategorias-1 .col-3,
   .blocoCategorias-1 .col-md-3 {
@@ -1689,6 +1689,18 @@ footer a {
   }
 }
 @media (max-width: 767px) {
+  .w-60-mob {
+    width: 60% !important;
+  }
+  .w-20-mob {
+    width: 20% !important;
+  }
+  .w-10-mob {
+    width: 10% !important;
+  }
+  .left-mob {
+    float: left !important;
+  }
   .mh-auto-mobile {
     min-height: auto !important;
   }
@@ -1713,14 +1725,26 @@ footer a {
   .pt-2-mob {
     padding-top: 0.5rem !important;
   }
+  .ps-2-mob {
+    padding-left: 0.5rem !important;
+  }
   .mt-2-mob {
     margin-top: 0.5rem !important;
   }
   .me-0-mob {
     margin-right: 0 !important;
   }
+  .ms-2-mob {
+    margin-left: 0.5rem !important;
+  }
+  .me-2-mob {
+    margin-right: 0.5rem !important;
+  }
   .d-grid-mob {
     display: grid !important;
+  }
+  .d-block-mob {
+    display: block !important;
   }
   .col-1-footer {
     width: 100%;
@@ -1847,6 +1871,10 @@ footer a {
   }
   #slideBannerHeader img {
     height: 128px !important;
+  }
+  .w-47-mob-3-per {
+    width: 47% !important;
+    margin-right: 3% !important;
   }
 }
 @media (max-width: 640px) {
