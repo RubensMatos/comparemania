@@ -1243,17 +1243,14 @@ footer a {
 }
 
 .form-switch .form-check-input {
-  background-image: url("../images/ico-switcher.svg");
+  background-image: url("../images/ico-switcher.svg") !important;
   border: 1px solid rgba(200, 200, 200, 0.5);
 }
 
-.form-check-input:checked {
-  background-color: #002e69;
-  border-color: #002e69;
-}
-
-.check-bgDark {
+.form-switch .form-check-input:checked {
   background-image: url("../images/ico-switcher-dark.svg") !important;
+  background-color: #ffffff;
+  border-color: rgba(0, 46, 105, 0.5);
 }
 
 .carousel-item {
