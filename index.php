@@ -7,9 +7,9 @@
 			<img src="images/banner-2.png" class="h-200 w-100" />
 		</div>
 	</div>
-	<div class="col-md-5 tablet-d-none">
-		<img src="images/anuncio-6.svg" class="w-100" />
-		<img src="images/anuncio-7.svg" class="w-100 mt-2" />
+	<div class="col-md-5 mobile-d-none">
+		<img src="images/anuncio-6.svg" class="w-100 imagemHomeAnuncio-1-tablet-desktop" />
+		<img src="images/anuncio-7.svg" class="w-100 mt-2 imagemHomeAnuncio-1-tablet-desktop" />
 	</div>
 	<div class="col-md-5 d-none tablet-d-block">
 		<img src="images/anuncio-12.svg" class="w-100 h-100-cover" />
@@ -143,7 +143,7 @@
 
 		</div>
 
-		<div class="col-md-3 tablet-d-block mobile-d-block">
+		<div class="col-md-3 tablet-d-none mobile-d-block">
 			<img src="images/anuncio-15.svg" class="w-97 mt-2 mb-4 zeroAuto ps-3" />
 		</div>
 
@@ -262,12 +262,12 @@
 				cashback... <img src="images/arrow-right-1.svg" /></a>
 		</div>
 
-		<div class="col-md-3 tablet-d-none">
+		<div class="col-md-3 desktop-d-block">
 			<img src="images/anuncio-1.svg" class="w-100" />
 			<img src="images/anuncio-5.svg" class="w-100 mt-4" />
 		</div>
 
-		<div class="col-md-12 d-none tablet-d-block d-flex mt-4 mobile-d-none">
+		<div class="col-md-12 d-none tablet-d-block d-flex mt-4 mobile-d-none desktop-d-none">
 			<img src="images/anuncio-10.svg" class="w-48" />
 			<img src="images/anuncio-11.svg" class="w-48 ml-3per" />
 		</div>

@@ -34,7 +34,7 @@
                 <div class="d-flex bd-highlight mb-4">
                     <a class="flex-fill bd-highlight px-1 tablet-d-none"><img src="images/qrcode-app-store.svg" /></a>
                     <a class="flex-fill bd-highlight px-1 tablet-d-none"><img src="images/qrcode-play-store.svg" /></a>
-                    <div class="desktop-d-none tablet-flex-center-auto">
+                    <div class="tablet-flex-center-auto d-none d-flex-tablet d-flex-mobile ms-37-per-tablet">
                         <a class="bd-highlight px-1"><img src="images/app-store.svg" /></a>
                         <a class="bd-highlight px-1"><img src="images/play-store.svg" /></a>
                     </div>

@@ -1255,10 +1255,6 @@ footer a {
   transition: transform 0.2s ease-in-out;
 }
 
-.desktop-d-none {
-  display: none;
-}
-
 .carousel-item-card {
   width: 20%;
 }
@@ -1492,6 +1488,12 @@ footer a {
 }
 
 @media (max-width: 1390px) {
+  .d-flex-tablet {
+    display: flex !important;
+  }
+  .ms-37-per-tablet {
+    margin-left: 37% !important;
+  }
   .col-1-footer {
     width: 40%;
   }
@@ -1515,9 +1517,6 @@ footer a {
   }
   .tablet-d-none {
     display: none;
-  }
-  .tablet-d-block {
-    display: block !important;
   }
 }
 @media (max-width: 1184px) {
@@ -1612,6 +1611,9 @@ footer a {
   }
 }
 @media (max-width: 1080px) {
+  .desktop-d-block {
+    display: none !important;
+  }
   .blocoCategorias-1 .col-md-3 {
     font-size: 16px !important;
   }
@@ -1694,7 +1696,39 @@ footer a {
     width: 100%;
   }
 }
+@media (min-width: 768px) {
+  .imagemHomeAnuncio-1-tablet-desktop {
+    height: 96px !important;
+    object-fit: cover !important;
+  }
+}
 @media (max-width: 767px) {
+  #transferencia-bonificada .card-1 {
+    display: grid;
+    width: 100% !important;
+    height: 284px;
+  }
+  #transferencia-bonificada .card-1 div {
+    width: 100%;
+  }
+  #transferencia-bonificada .card-1 div p {
+    width: 100% !important;
+    padding: 7px 11px 0 11px !important;
+  }
+  #transferencia-bonificada .card-1 div a {
+    width: 100% !important;
+    padding-top: 16px !important;
+    text-align: center;
+  }
+  #transferencia-bonificada .owl-item .card-50-per-tablet {
+    width: 94%;
+  }
+  .width-auto {
+    width: auto !important;
+  }
+  .d-flex-mobile {
+    display: flex !important;
+  }
   .px-4-mob {
     padding-right: 1.5rem !important;
     padding-left: 1.5rem !important;
@@ -1806,6 +1840,9 @@ footer a {
   .mobile-d-block {
     display: block !important;
   }
+  .tablet-d-block + .mobile-d-none {
+    display: none !important;
+  }
   .mobile-d-none {
     display: none !important;
   }
@@ -1898,20 +1935,6 @@ footer a {
   .carousel-item-card {
     width: 50%;
   }
-}
-@media (max-width: 430px) {
-  #slide-1 .owl-nav button.owl-next,
-  #slide-1 .owl-nav button.owl-prev,
-  #slide-2 .owl-nav button.owl-next,
-  #slide-2 .owl-nav button.owl-prev {
-    display: none !important;
-  }
-  .text-center-mobile {
-    text-align: center !important;
-  }
-  .btVerMaisMini {
-    display: none;
-  }
   #transferencia-bonificada .card-1 {
     display: grid;
     width: 100% !important;
@@ -1931,6 +1954,23 @@ footer a {
   }
   #transferencia-bonificada .owl-item .card-50-per-tablet {
     width: 94%;
+  }
+  .width-auto {
+    width: auto !important;
+  }
+}
+@media (max-width: 430px) {
+  #slide-1 .owl-nav button.owl-next,
+  #slide-1 .owl-nav button.owl-prev,
+  #slide-2 .owl-nav button.owl-next,
+  #slide-2 .owl-nav button.owl-prev {
+    display: none !important;
+  }
+  .text-center-mobile {
+    text-align: center !important;
+  }
+  .btVerMaisMini {
+    display: none;
   }
   #dicas-especiais {
     padding-left: 6%;
