@@ -12,3 +12,6 @@ Layout Comparemania
 <p>https://dev.solutioweb.com.br/comparemania/cartoes-de-credito.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/categorias.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/categorias-selecionado.php</p>
+<p>https://dev.solutioweb.com.br/comparemania/error.php</p>
+<p>https://dev.solutioweb.com.br/comparemania/error-404.php</p>
+<p>https://dev.solutioweb.com.br/comparemania/error-search.php</p>
