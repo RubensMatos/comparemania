@@ -128,7 +128,7 @@
                                                 width="26px" height="25px" style="display: none;">
                                         </a>
                                         <div class="form-check form-switch float-end px-2 h-50px">
-                                            <input class="form-check-input switcherHeader" type="checkbox"
+                                            <input class="form-check-input switcherHeader flexSwitchCheckChecked" type="checkbox"
                                                 id="flexSwitchCheckChecked" checked="">
                                             <label class="form-check-label" for="flexSwitchCheckChecked"></label>
                                         </div>
@@ -208,8 +208,8 @@
                                 <div class="vr vr25"></div>
                                 <li class="nav-item">
                                     <div class="form-check form-switch">
-                                        <input class="form-check-input switcherHeader" type="checkbox"
-                                            id="flexSwitchCheckChecked" checked>
+                                        <input class="form-check-input switcherHeader flexSwitchCheckChecked" type="checkbox"
+                                            id="flexSwitchCheckChecked" checked="">
                                         <label class="form-check-label" for="flexSwitchCheckChecked"></label>
                                     </div>
                                 </li>

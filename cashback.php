@@ -62,231 +62,234 @@
 
             <div class="col-md-12 pe-4">
 
-                <table class="table table-striped borderRadiusTop10 tableCashback d-none">
-                    <thead>
-                        <tr>
-                            <th scope="col"
-                                class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 borderRadiusTopLeft10">
-                                Loja</th>
-                            <th scope=" col" class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500">Melhor
-                                Ganho
-                            </th>
-                            <th scope=" col" class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500">Esfera
-                            </th>
-                            <th scope=" col" class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500">Banco
-                                Inter
-                            </th>
-                            <th scope=" col" class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500">Cuponomia
-                            </th>
-                            <th scope=" col" class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500">Picpay
-                            </th>
-                            <th scope=" col"
-                                class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 borderRadiusTopRight10">
-                                Outros
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                        <tr>
-                            <td class="bgWhite">Magazine Luiza</td>
-                            <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                            <td class="text-center NunitoGray500">1%</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="table-responsive w-100 py-3">
+                    <table class="table table-striped borderRadiusTop10 tableCashback d-none">
+                        <thead>
+                            <tr>
+                                <th scope="col"
+                                    class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 borderRadiusTopLeft10">
+                                    Loja</th>
+                                <th scope=" col" class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500">Melhor
+                                    Ganho
+                                </th>
+                                <th scope=" col" class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500">Esfera
+                                </th>
+                                <th scope=" col" class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500">Banco
+                                    Inter
+                                </th>
+                                <th scope=" col" class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500">
+                                    Cuponomia
+                                </th>
+                                <th scope=" col" class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500">Picpay
+                                </th>
+                                <th scope=" col"
+                                    class="bgBlue3 fonteBranco fw-normal text-center NunitoWhite500 borderRadiusTopRight10">
+                                    Outros
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                            <tr>
+                                <td class="bgWhite">Magazine Luiza</td>
+                                <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                                <td class="text-center NunitoGray500">1%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
                 <nav aria-label="Page navigation example" class="text-center tableCashback d-none">
                     <ul class="pagination pagination-1 justify-content-center mt-4 mb-5">

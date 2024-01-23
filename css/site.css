@@ -831,6 +831,10 @@ body {
   filter: brightness(0) saturate(100%) invert(100%) grayscale(100%) !important;
 }
 
+.bgDark .navbar-toggler-icon {
+  filter: brightness(0) saturate(100%) invert(100%) grayscale(100%) !important;
+}
+
 #navbarSupportedContent .nav-link img {
   width: 26px !important;
   height: 25px !important;
@@ -1087,11 +1091,6 @@ body {
   border: none;
 }
 
-.form-check-input:checked {
-  background-color: #002e69;
-  border-color: #002e69;
-}
-
 .borderRadiusTop20 {
   border-top-left-radius: 20px !important;
   border-top-right-radius: 20px !important;
@@ -1245,6 +1244,12 @@ footer a {
 
 .form-switch .form-check-input {
   background-image: url("../images/ico-switcher.svg");
+  border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.form-check-input:checked {
+  background-color: #002e69;
+  border-color: #002e69;
 }
 
 .check-bgDark {
@@ -1830,8 +1835,9 @@ footer a {
     overflow-y: scroll;
     height: 100%;
     position: fixed;
-    width: 92%;
+    width: 80%;
     padding: 0 15px;
+    background: white;
   }
   .bloco-lista-menu-mobile li {
     height: 82px;
@@ -1848,11 +1854,11 @@ footer a {
   }
   .navbar-collapse {
     background-color: #ffffff;
-    width: 345px;
+    width: 80%;
     position: fixed;
     top: 0;
     right: 0;
-    left: -345px;
+    left: -80%;
     z-index: 1030;
     transition: left 0.5s ease;
     height: 100%;
@@ -1959,6 +1965,11 @@ footer a {
     width: auto !important;
   }
 }
+@media (max-width: 500px) {
+  .banner-titulo {
+    font-size: 22px;
+  }
+}
 @media (max-width: 430px) {
   #slide-1 .owl-nav button.owl-next,
   #slide-1 .owl-nav button.owl-prev,
@@ -2034,6 +2045,19 @@ footer a {
     border-top-left-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
     border-bottom-left-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
+  }
+}
+@media (max-width: 600px) {
+  .ms-37-per-tablet {
+    margin-left: 17% !important;
+  }
+}
+@media (max-width: 360px) {
+  .banner-titulo {
+    font-size: 20px;
+  }
+  .banner-texto {
+    font-size: 18px;
   }
 }
 

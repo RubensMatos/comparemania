@@ -231,26 +231,19 @@
         }
 
         function handleCheckboxChange() {
-            const checkbox = document.getElementById('flexSwitchCheckChecked');
-            const isChecked = checkbox.checked;
+            const checkboxes = document.getElementsByClassName('flexSwitchCheckChecked');
 
-            setCookie('checkboxStatus', isChecked ? 'checked' : 'unchecked', 365);
-
-            var cookieStatus = getCookie('checkboxStatus');
-
-            verificaEstilo(cookieStatus)
+            for (const checkbox of checkboxes) {
+                checkbox.addEventListener('change', function () {
+                    const isChecked = this.checked;
+                    setCookie(`checkboxStatus_${this.id}`, isChecked ? 'checked' : 'unchecked', 365);
+                    var cookieStatus = getCookie(`checkboxStatus_${this.id}`);
+                    verificaEstilo(cookieStatus);
+                });
+            }
         }
 
-        const checkbox = document.getElementById('flexSwitchCheckChecked');
-        checkbox.addEventListener('change', handleCheckboxChange);
-
-        const cookieStatus = getCookie('checkboxStatus');
-
-        if (cookieStatus !== null) {
-            checkbox.checked = (cookieStatus === 'checked');
-        }
-
-        verificaEstilo(cookieStatus);
+        handleCheckboxChange();
 
         $(".fechaTopo").click(function () {
 

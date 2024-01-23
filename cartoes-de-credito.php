@@ -54,14 +54,14 @@
                 </select>
 
                 <div class="w-10 text-center pt-2 left-mob w-10-mob">
-                    <img src="images/ico-list.svg" class="pointer" id="btPontosMilhas" />
+                    <img src="images/ico-list.svg" class="pointer" id="btCartoes" />
                 </div>
 
             </div>
 
             <div class="col-md-12 pe-4">
 
-                <div class="table-responsive">
+                <div class="table-responsive w-100 py-3">
                     <table class="table table-striped borderRadiusTop10 tableCartoes d-none">
                         <thead>
                             <tr>
