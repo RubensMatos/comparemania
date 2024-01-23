@@ -1215,6 +1215,7 @@ body {
 
 .w-100 {
   width: 100% !important;
+  max-width: 100% !important;
 }
 
 .h-200 {
@@ -1755,6 +1756,10 @@ footer a {
 }
 
 @media (max-width: 767px) {
+  .px-4-mob {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+  }
   .w-60-mob {
     width: 60% !important;
   }
@@ -1772,6 +1777,7 @@ footer a {
   }
   .w-100-mob {
     width: 100% !important;
+    max-width: 100% !important;
   }
   .ms-0-mob {
     margin-left: 0 !important;
@@ -1793,6 +1799,9 @@ footer a {
   }
   .ps-2-mob {
     padding-left: 0.5rem !important;
+  }
+  .ps-0-mob {
+    padding-left: 0 !important;
   }
   .mt-2-mob {
     margin-top: 0.5rem !important;
