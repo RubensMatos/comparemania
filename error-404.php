@@ -4,7 +4,7 @@
 
     <div class="my-5 w-100 d-flex conteudo">
 
-        <div class="col-md-12 ps-5">
+        <div class="col-md-12 ps-5 px-4-mob">
 
             <div class="w-100 text-center mt-4">
                 <img src="images/404.svg" class="img404 zeroAuto" />
@@ -12,7 +12,7 @@
             </div>
 
             <span class="NunitoBlue500-4 bgDark-fonte-1">
-                Ops...
+                <br />Ops...
                 <br />Esta pagina não foi encontrada!
                 <br /><br />Este link pode estar corrompido ou a pagina pode ter sido removida
             </span>
