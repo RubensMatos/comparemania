@@ -15,4 +15,8 @@ Layout Comparemania
 <p>https://dev.solutioweb.com.br/comparemania/error.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/error-404.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/error-search.php</p>
+
+<p>https://dev.solutioweb.com.br/comparemania/promocoes.php</p>
+
 <p>https://dev.solutioweb.com.br/comparemania/</p>
+

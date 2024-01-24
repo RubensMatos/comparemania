@@ -819,6 +819,15 @@ body {
   line-height: normal;
 }
 
+.NunitoGray700-4 {
+  color: var(--Gray-Scale-Cinza-75, #404040);
+  font-family: "Nunito";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .transform180 {
   transform: rotate(180deg);
 }
@@ -1233,6 +1242,11 @@ footer {
   margin-right: 1em !important;
 }
 
+.card-20per {
+  width: 19% !important;
+  margin-right: 0.7em !important;
+}
+
 footer a {
   color: #ffffff;
   text-decoration: none;
@@ -1432,6 +1446,10 @@ footer a {
 
 .mh-300 {
   min-height: 300px;
+}
+
+.mh-73 {
+  min-height: 73px;
 }
 
 .pagination-1 .page-item .page-link {
@@ -1651,6 +1669,9 @@ footer a {
     margin: 0 auto;
     width: 50%;
   }
+  .blocoCamposPesquisa {
+    width: 93% !important;
+  }
 }
 @media (max-width: 1050px) {
   .alerta-text {
@@ -1698,13 +1719,21 @@ footer a {
     width: 100%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .imagemHomeAnuncio-1-tablet-desktop {
     height: 96px !important;
     object-fit: cover !important;
   }
+  .card-31per {
+    width: 31% !important;
+    margin-right: 0.7em !important;
+  }
 }
-@media (max-width: 767px) {
+@media (max-width: 766px) {
+  .blocoCamposPesquisa {
+    width: 97% !important;
+    display: block !important;
+  }
   #transferencia-bonificada .card-1 {
     display: grid;
     width: 100% !important;
@@ -1734,6 +1763,12 @@ footer a {
   .px-4-mob {
     padding-right: 1.5rem !important;
     padding-left: 1.5rem !important;
+  }
+  .w-73-mob {
+    width: 73% !important;
+  }
+  .w-70-mob {
+    width: 70% !important;
   }
   .w-60-mob {
     width: 60% !important;
@@ -1930,8 +1965,14 @@ footer a {
     width: 47% !important;
     margin-right: 3% !important;
   }
+  .me-1-rem-mob {
+    margin-right: 1rem !important;
+  }
 }
 @media (max-width: 640px) {
+  .me-1-rem-mob {
+    margin-right: 0.1rem !important;
+  }
   .textoTopo label {
     width: 55vw;
   }
@@ -2055,6 +2096,12 @@ footer a {
   }
   .banner-texto {
     font-size: 18px;
+  }
+}
+@media (min-width: 1080px) {
+  .card-20per-desktop {
+    width: 19% !important;
+    margin-right: 0.6em !important;
   }
 }
 

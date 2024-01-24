@@ -12,13 +12,13 @@
             </div>
             <div class="col-md-2  col-2-footer col-1-footer-sub">
                 <h5>Destaques</h5>
-                <a class="linkUnderline" href="#">Pontos e Milhas</a>
-                <a class="linkUnderline" href="#">Cashback</a>
-                <a class="linkUnderline" href="#">Cartões de Crédito</a>
+                <a class="linkUnderline" href="pontos-e-milhas.php">Pontos e Milhas</a>
+                <a class="linkUnderline" href="cashback.php">Cashback</a>
+                <a class="linkUnderline" href="cartoes-de-credito.php">Cartões de Crédito</a>
                 <a class="linkUnderline" href="#">Calculadora de Milhas</a>
                 <a class="linkUnderline" href="#">Simulador de Ganhos</a>
                 <a class="linkUnderline" href="#">Simulador de Fatura</a>
-                <a class="linkUnderline" href="#">Promoções</a>
+                <a class="linkUnderline" href="promocoes.php">Promoções</a>
                 <a class="linkUnderline" href="#">Transferência Bonificada</a>
                 <a class="linkUnderline" href="#">Todas as Categorias</a>
             </div>
