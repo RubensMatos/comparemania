@@ -193,6 +193,16 @@ body {
   transition: opacity 1s ease;
 }
 
+.blocoSearchBlue {
+  border-radius: 20px 20px 0px 0px;
+  background: var(--button, #002e69);
+}
+
+.blocoListScroll-1 {
+  overflow-y: auto;
+  max-height: 1290px;
+}
+
 .itemBolsa h6 {
   color: $azulEscuro;
   font-weight: 600;
@@ -782,6 +792,15 @@ body {
   line-height: normal;
 }
 
+.NunitoWhite700 {
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #ffffff;
+}
+
 .NunitoGray500 {
   color: var(--Gray-Scale-Cinza-75, #404040) !important;
   font-family: $font-nunito;
@@ -853,6 +872,21 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.card-2-p-3-linhas p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.photo-card-2 {
+  object-fit: cover;
+  height: 128px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .transform180 {
@@ -1686,6 +1720,10 @@ footer a {
     display: none !important;
   }
 
+  .w-100-tablet{
+    width: 100%;
+  }
+
   .blocoCategorias-1 .col-md-3 {
     font-size: 16px !important;
   }
@@ -1723,7 +1761,7 @@ footer a {
     margin: 0 auto;
     width: 50%;
   }
-  .blocoCamposPesquisa{
+  .blocoCamposPesquisa {
     width: 93% !important;
   }
 }
@@ -1795,8 +1833,7 @@ footer a {
 }
 
 @media (max-width: 766px) {
-
-  .blocoCamposPesquisa{
+  .blocoCamposPesquisa {
     width: 97% !important;
     display: block !important;
   }
@@ -2043,13 +2080,13 @@ footer a {
     width: 47% !important;
     margin-right: 3% !important;
   }
-  .me-1-rem-mob{
+  .me-1-rem-mob {
     margin-right: 1rem !important;
   }
 }
 
 @media (max-width: 640px) {
-  .me-1-rem-mob{
+  .me-1-rem-mob {
     margin-right: 0.1rem !important;
   }
   .textoTopo label {
