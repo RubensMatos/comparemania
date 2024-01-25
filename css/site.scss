@@ -81,6 +81,16 @@ body {
   line-height: normal;
 }
 
+.fundoLaranja{
+  background-color: #F7931E !important;
+}
+
+.radio-1{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
 .alerta-content {
   border-radius: 20px;
   background: var(--button, #002e69);
@@ -272,6 +282,10 @@ body {
 
 .itemBolsa div {
   display: flex;
+}
+
+.bloco-lista-menu-mobile li a span{
+  font-size: 17px;
 }
 
 .itemBolsa div span {

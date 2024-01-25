@@ -1,7 +1,7 @@
 <?php require_once('header.php'); ?>
 
 <div class="container conteudo">
-    <img src="images/banner-simulador-de-ganhos.svg" class="w-100 mobile-d-none" />
+    <img src="images/banner-simulador-de-pontos.svg" class="w-100 mobile-d-none" />
 
     <div class="banner-bg mobile-d-block mb-4 bg-primary bg-opacity-50">
         <label class="banner-titulo fonteAzulEscuro">Simulador de<br>Pontos na Fatura</label>
