@@ -19,6 +19,6 @@ Layout Comparemania
 <p>https://dev.solutioweb.com.br/comparemania/promocoes.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/simulador-de-pontos.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/simulador-de-ganhos.php</p>
+<p>https://dev.solutioweb.com.br/comparemania/calculadora-de-milhas.php</p>
 
 <p>https://dev.solutioweb.com.br/comparemania/</p>
-
