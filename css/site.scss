@@ -50,6 +50,15 @@ body {
   background-color: #3cb6fb !important;
 }
 
+.lh-70 {
+  line-height: 70px !important;
+}
+
+.badgeGreen {
+  border-radius: 20px;
+  background: var(--Status-Sucess, #04a943);
+}
+
 .banner-bg {
   width: 94%;
   min-height: 180px;
@@ -81,11 +90,11 @@ body {
   line-height: normal;
 }
 
-.fundoLaranja{
-  background-color: #F7931E !important;
+.fundoLaranja {
+  background-color: #f7931e !important;
 }
 
-.radio-1{
+.radio-1 {
   width: 25px;
   height: 25px;
   cursor: pointer;
@@ -208,6 +217,14 @@ body {
   background: var(--button, #002e69);
 }
 
+.borderRadiosTop20 {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.borderRadiosBottom20 {
+  border-radius: 0px 0px 20px 20px;
+}
+
 .blocoListScroll-1 {
   overflow-y: auto;
   max-height: 1290px;
@@ -284,7 +301,7 @@ body {
   display: flex;
 }
 
-.bloco-lista-menu-mobile li a span{
+.bloco-lista-menu-mobile li a span {
   font-size: 17px;
 }
 
@@ -751,6 +768,15 @@ body {
   line-height: normal;
 }
 
+.NunitoBlue700-3 {
+  color: var(--primria-blue-1, #002e69);
+  font-family: Nunito;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .NunitoBlue700-2-link {
   color: var(--Blue, #002e69);
   font-family: $font-nunito;
@@ -813,6 +839,15 @@ body {
   font-weight: 700;
   line-height: normal;
   color: #ffffff;
+}
+
+.NunitoWhite700-2 {
+  color: var(--Secundario-White, #fff);
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .NunitoGray500 {
@@ -888,14 +923,14 @@ body {
   line-height: normal;
 }
 
-.conteudoRodapeRosa{
-  background-color: #FFBFBF;
+.conteudoRodapeRosa {
+  background-color: #ffbfbf;
   border-radius: 0 0px 20px 20px;
   padding: 40px;
   display: grid;
 }
 
-.card-2-p-3-linhas p{
+.card-2-p-3-linhas p {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -924,6 +959,20 @@ body {
 
 .bgDark .navbar-toggler-icon {
   filter: brightness(0) saturate(100%) invert(100%) grayscale(100%) !important;
+}
+
+.bgVerdeClaro {
+  background-color: #dfc !important;
+}
+
+.bgRosaRadius {
+  border-radius: 20px;
+  background: var(--Status-Danger--1, #ffbfbf);
+}
+
+.bgAmareloRadius {
+  border-radius: 20px;
+  background: var(--Status-Danger--1, #fff7cc);
 }
 
 #navbarSupportedContent .nav-link img {
@@ -1522,6 +1571,10 @@ footer a {
   min-height: 150px;
 }
 
+.mh-180 {
+  min-height: 180px;
+}
+
 .mh-200 {
   min-height: 200px;
 }
@@ -1741,7 +1794,7 @@ footer a {
     display: none !important;
   }
 
-  .w-100-tablet{
+  .w-100-tablet {
     width: 100%;
   }
 
@@ -2270,5 +2323,43 @@ footer a {
   .card-20per-desktop {
     width: 19% !important;
     margin-right: 0.6em !important;
+  }
+}
+
+.tablet-d-block-2 {
+  display: none;
+}
+
+.tablet-d-none-2 {
+  display: block;
+}
+
+@media (max-width: 1199px) {
+  .tablet-d-block-2 {
+    display: block !important;
+  }
+  .tablet-d-none-2 {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .w-49-tablet {
+    width: 49.9999% !important;
+  }
+  .mt-0-tablet {
+    margin-top: 0 !important;
+  }
+  .w-100-tablet {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .w-100-mob-2 {
+    width: 100% !important;
+  }
+  .mobile-d-none-2 {
+    display: none !important;
   }
 }
