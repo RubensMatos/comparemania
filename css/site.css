@@ -31,6 +31,10 @@ body {
   line-height: 70px !important;
 }
 
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
 .badgeGreen {
   border-radius: 20px;
   background: var(--Status-Sucess, #04a943);
@@ -733,7 +737,7 @@ body {
 }
 
 .NunitoBlue700-2 {
-  color: var(--Blue, #002e69);
+  color: var(--Blue, #002e69) !important;
   font-family: "Nunito";
   font-size: 24px;
   font-style: normal;
@@ -751,7 +755,7 @@ body {
 }
 
 .NunitoBlue700-2-link {
-  color: var(--Blue, #002e69);
+  color: var(--Blue, #002e69) !important;
   font-family: "Nunito";
   font-size: 24px;
   font-style: normal;
@@ -800,6 +804,16 @@ body {
   color: var(--Secundario-White, #fff) !important;
   font-family: "Nunito";
   font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.NunitoWhite500-2 {
+  color: var(--Secundario-White, #fff);
+  text-align: center;
+  font-family: Nunito;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -936,6 +950,14 @@ body {
 
 .bgVerdeClaro {
   background-color: #dfc !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.bgVerde {
+  background-color: #04a943 !important;
 }
 
 .bgRosaRadius {
@@ -2195,6 +2217,27 @@ footer a {
     border-bottom-left-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
   }
+  .px-0-mob {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .botao-100per-mob {
+    font-size: 100%;
+    width: 100% !important;
+    display: block;
+  }
+  .my-4-mob {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .py-5-mob {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  .px-3-mob {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
 }
 @media (max-width: 600px) {
   .ms-37-per-tablet {
@@ -2232,6 +2275,12 @@ footer a {
   }
 }
 @media (max-width: 1200px) {
+  .exibe-desktop {
+    display: block !important;
+  }
+  .oculta-desktop {
+    display: none !important;
+  }
   .w-49-tablet {
     width: 49.9999% !important;
   }
