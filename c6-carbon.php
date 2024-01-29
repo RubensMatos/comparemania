@@ -50,8 +50,7 @@
                     </div>
                     <div class="bg-white mt-2 d-none exibe-desktop">
                         <div class="bg-white fw-normal text-center NunitoBlue700-2 pt-3">Melhor Ganho</div>
-                        <div class="bg-white fw-normal text-center NunitoGray500 lh-70 vertical-align-middle pt-4">2.5 pontos por dólar ou
-0.51 pontos por real</div>
+                        <div class="bg-white fw-normal text-center NunitoGray500 lh-70 vertical-align-middle pt-4">2.5 pontos por dólar ou 0.51 pontos por real</div>
                     </div>
 
                     <div class="bg-white mt-2 d-none exibe-desktop mb-2" style="background-color:#D9D9D9 !important;">

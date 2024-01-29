@@ -31,6 +31,10 @@ body {
   line-height: 70px !important;
 }
 
+.d-inline-grid {
+  display: inline-grid !important;
+}
+
 .vertical-align-middle {
   vertical-align: middle;
 }
@@ -38,6 +42,17 @@ body {
 .badgeGreen {
   border-radius: 20px;
   background: var(--Status-Sucess, #04a943);
+}
+
+.col-49-per {
+  width: 49% !important;
+  margin-left: 0.5% !important;
+}
+
+.desabilita {
+  filter: grayscale(1) !important;
+  opacity: 0.6 !important;
+  cursor: not-allowed !important;
 }
 
 .banner-bg {
@@ -215,6 +230,40 @@ body {
   color: #002e69;
   font-weight: 600;
   padding-top: 15px;
+}
+
+.nav-tab-1 .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #002e69;
+  color: var(--Blue, #002e69);
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav-tab-1 .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+  background: none;
+  border: none;
+  color: var(--Blue, #002e69);
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-tabs.nav-tab-1 .nav-item {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-tabs.nav-tab-1 .nav-link {
+  width: 100%;
 }
 
 .botaoRedondo1 {
@@ -950,6 +999,10 @@ body {
 
 .bgVerdeClaro {
   background-color: #dfc !important;
+}
+
+.bgVerdeClaro-2 {
+  background-color: #DDFFCC !important;
 }
 
 .text-white {
@@ -2297,6 +2350,30 @@ footer a {
   }
   .mobile-d-none-2 {
     display: none !important;
+  }
+  .col-49-per-vertical {
+    width: 48% !important;
+  }
+  .col-49-per-vertical .card-1 {
+    height: 270px;
+    display: block;
+  }
+  .col-49-per-vertical .card-1 .col-5 {
+    width: 100%;
+  }
+  .col-49-per-vertical .card-1 .col-7 {
+    width: 95%;
+  }
+  .col-49-per-vertical .card-1 .col-7 p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  .col-49-per-vertical .card-1 .col-7 a {
+    width: 100% !important;
+    font-size: 12px;
+    padding-top: 15px !important;
   }
 }
 
