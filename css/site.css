@@ -26,6 +26,10 @@ body {
   width: 350px !important;
 }
 
+.w-200 {
+  width: 200px !important;
+}
+
 .alerta-container {
   width: 90%;
   margin-left: 5%;

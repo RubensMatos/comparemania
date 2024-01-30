@@ -27,5 +27,6 @@ Layout Comparemania
 <p>https://dev.solutioweb.com.br/comparemania/resultado-de-ganhos.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/quantidade-de-milhas.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/resultado-de-cotacao.php</p>
+<p>https://dev.solutioweb.com.br/comparemania/resultado-para-c6-carbon.php</p>
 
 <p>https://dev.solutioweb.com.br/comparemania/</p>
