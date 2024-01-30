@@ -837,6 +837,11 @@ body {
   font-weight: 700 !important;
 }
 
+.card-box-shadow {
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s ease-in-out;
+}
+
 .NunitoBlue700 {
   color: var(--primria-blue-1, #002e69) !important;
   font-family: $font-nunito;
@@ -1092,6 +1097,10 @@ body {
   background: var(--Status-Danger--1, #ffbfbf);
 }
 
+.bgRosa {
+  background: var(--Status-Danger--1, #ffbfbf);
+}
+
 .bgAmareloRadius {
   border-radius: 20px;
   background: var(--Status-Danger--1, #fff7cc);
@@ -1134,6 +1143,10 @@ body {
 
 .w-20 {
   width: 20%;
+}
+
+.w-250 {
+  width: 250px;
 }
 
 .w-49 {
@@ -2513,6 +2526,13 @@ footer a {
 }
 
 @media (max-width: 767px) {
+  .zeroAuto-mobile {
+    margin: 0 auto;
+  }
+
+  .text-center-mobile-2 {
+    text-align: center !important;
+  }
   .w-100-mob-2 {
     width: 100% !important;
   }
