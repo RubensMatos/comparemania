@@ -26,5 +26,6 @@ Layout Comparemania
 <p>https://dev.solutioweb.com.br/comparemania/simulador-de-ganhos-2.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/resultado-de-ganhos.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/quantidade-de-milhas.php</p>
+<p>https://dev.solutioweb.com.br/comparemania/resultado-de-cotacao.php</p>
 
 <p>https://dev.solutioweb.com.br/comparemania/</p>
