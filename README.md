@@ -24,5 +24,6 @@ Layout Comparemania
 <p>https://dev.solutioweb.com.br/comparemania/c6-carbon.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/transferencia-bonificada.php</p>
 <p>https://dev.solutioweb.com.br/comparemania/simulador-de-ganhos-2.php</p>
+<p>https://dev.solutioweb.com.br/comparemania/resultado-de-ganhos.php</p>
 
 <p>https://dev.solutioweb.com.br/comparemania/</p>
