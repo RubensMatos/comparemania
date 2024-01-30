@@ -14,6 +14,18 @@ body {
   width: 20% !important;
 }
 
+.d-inline-block {
+  display: inline-block !important;
+}
+
+.w-400 {
+  width: 400px !important;
+}
+
+.w-350 {
+  width: 350px !important;
+}
+
 .alerta-container {
   width: 90%;
   margin-left: 5%;
@@ -25,6 +37,14 @@ body {
 
 .bg-blue-light {
   background-color: #3cb6fb !important;
+}
+
+.borda-azul {
+  border: 1px solid #0d6efd !important;
+}
+
+.ms-2-5 {
+  margin-left: 2.5rem !important;
 }
 
 .lh-70 {
@@ -2175,6 +2195,9 @@ footer a {
   .w-47-mob-3-per {
     width: 47% !important;
     margin-right: 3% !important;
+  }
+  .w-47-mob-3-per-2 {
+    width: 47% !important;
   }
   .me-1-rem-mob {
     margin-right: 1rem !important;

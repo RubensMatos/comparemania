@@ -66,6 +66,14 @@
 
     document.addEventListener('DOMContentLoaded', function () {
 
+        $(".botaoLoader").click(function(){
+
+            $(".texto-botao").css({"display":"none"});
+            $(".loader-botao").attr({"style":"display:inline-block !important"});
+        })
+
+        $(".mascaraReal").maskMoney();
+
         $(".bt-alerta-1, .alerta-container").on({
             mouseenter: function () {
                 $(".alerta-container").stop().fadeIn();
