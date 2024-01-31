@@ -88,7 +88,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -97,7 +97,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -106,7 +106,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -115,7 +115,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -124,7 +124,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -133,7 +133,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -142,7 +142,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -151,7 +151,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -160,7 +160,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -169,7 +169,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -178,7 +178,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -187,7 +187,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -196,7 +196,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -205,7 +205,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -214,7 +214,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -223,7 +223,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -232,7 +232,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -241,7 +241,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -250,7 +250,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -259,7 +259,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -268,7 +268,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
@@ -277,7 +277,7 @@
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>
                                 <td class="text-center NunitoGray500">1 pts/R$</td>

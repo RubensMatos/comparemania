@@ -2447,5 +2447,9 @@ footer a {
     padding-top: 15px !important;
   }
 }
+tr:hover td {
+  background-color: #D9D9D9;
+  color: #0177FF !important;
+}
 
 /*# sourceMappingURL=site.css.map */

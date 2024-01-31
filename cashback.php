@@ -90,7 +90,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -99,7 +99,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -108,7 +108,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -117,7 +117,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -126,7 +126,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -135,7 +135,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -144,7 +144,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -153,7 +153,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -162,7 +162,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -171,7 +171,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -180,7 +180,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -189,7 +189,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -198,7 +198,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -207,7 +207,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -216,7 +216,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -225,7 +225,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -234,7 +234,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -243,7 +243,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -252,7 +252,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -261,7 +261,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -270,7 +270,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
@@ -279,7 +279,7 @@
                                 <td class="text-center NunitoGray500">1%</td>
                             </tr>
                             <tr>
-                                <td class="bgWhite">Magazine Luiza</td>
+                                <td>Magazine Luiza</td>
                                 <td class="text-center NunitoGray500 bgGray box-shadow-none">5%</td>
                                 <td class="text-center NunitoGray500">1%</td>
                                 <td class="text-center NunitoGray500">1%</td>
